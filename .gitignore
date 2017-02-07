@@ -17,21 +17,18 @@ coverage
 # nyc test coverage
 .nyc_output
 
-# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+# See https://help.github.com/ignore-files/ for more about ignoring files.
 
-# node-waf configuration
-.lock-wscript
+# compiled output
+/dist
+/tmp
 
-# Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
+# dependencies
+/node_modules
+/bower_components
 
-# Dependency directories
-node_modules
-jspm_packages
-
-# Optional npm cache directory
-.npm
-
-# Optional REPL history
-.node_repl_history
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+app/serializers/
